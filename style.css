@@ -1,0 +1,42 @@
+/* Sidebar styles */
+.sidebar {
+    background-color: #2c2c2c;
+    padding: 10px;
+}
+
+/* Sidebar title */
+.sidebar-title {
+    font-weight: bold;
+    color: #bbbbbb;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Sidebar button */
+.sidebar-button {
+    background: none;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.sidebar-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Selected button */
+.sidebar-button.selected {
+    background-color: rgba(255, 255, 255, 0.15);
+    font-weight: bold;
+}
+
+/* Settings page title */
+.settings-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+}
+
